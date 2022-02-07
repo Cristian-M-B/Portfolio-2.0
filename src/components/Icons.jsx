@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
             height: '15%',
             flexDirection: 'row',
             alignItems: 'flex-end',
-            paddingBottom: '2vh',
+            paddingBottom: '4vh',
         }
     }
 }));
