@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import LinkScroll from './LinkScroll.jsx';
 import { Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 
@@ -10,12 +10,6 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: '#24292F',
         color: 'white',
         fontWeight: 'bold',
-    },
-    link: {
-        '&:hover': {
-            cursor: 'pointer',
-            textShadow: '0 0 10px rgba(255, 255, 255, 1)',
-        }
     }
 }));
 
@@ -29,39 +23,9 @@ export default function Nav() {
             alignItems='center'
             className={classes.nav}
         >
-            <Link
-                to='home'
-                activeClass='active'
-                spy={true}
-                smooth={true}
-                offset={-10}
-                duration={1000}
-                className={classes.link}
-            >
-                Inicio
-            </Link>
-            <Link
-                to='technologies'
-                activeClass='active'
-                spy={true}
-                smooth={true}
-                offset={-10}
-                duration={1000}
-                className={classes.link}
-            >
-                Tecnologías
-            </Link>
-            <Link
-                to='projects'
-                activeClass='active'
-                spy={true}
-                smooth={true}
-                offset={-10}
-                duration={1000}
-                className={classes.link}
-            >
-                Proyectos
-            </Link>
+            <LinkScroll section='home' name='Inicio' />
+            <LinkScroll section='technologies' name='Tecnologías' />
+            <LinkScroll section='projects' name='Proyectos' />
         </Grid>
     )
 }
