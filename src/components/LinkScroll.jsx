@@ -6,7 +6,8 @@ const useStyles = makeStyles((theme) => ({
     link: {
         '&:hover': {
             cursor: 'pointer',
-            textShadow: '0 0 10px rgba(255, 255, 255, 1)',
+            color: '#ffa533',
+            textShadow: '0 0 10px rgba(255, 165, 51, 0.5)',
         }
     }
 }));

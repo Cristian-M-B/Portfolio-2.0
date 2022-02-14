@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     },
     '@media (max-width: 600px)': {
         form: {
-            width: '60vw',
+            width: '65vw',
         },
     }
 }));
@@ -54,7 +54,7 @@ export default function Form() {
     }
 
     return (
-        <Box component={Paper} elevation={18} data-aos='fade-left' className={classes.form}>
+        <Box component={Paper} elevation={18} data-aos="fade-up" className={classes.form}>
             <form ref={form} onSubmit={handleSubmit}>
                 <TextField
                     required

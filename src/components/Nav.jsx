@@ -7,7 +7,6 @@ const useStyles = makeStyles((theme) => ({
     nav: {
         width: '100%',
         height: '8vh',
-        backgroundColor: '#24292F',
         color: 'white',
         fontWeight: 'bold',
     }

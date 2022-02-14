@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
     card: {
         width: '40vw',
     },
+    image: {
+        width: '100%',
+    },
     '@media (max-width: 600px)': {
         card: {
             width: '80vw',
@@ -29,13 +32,13 @@ export default function ProjectCard({ name, image, link, description }) {
     return (
         <Grid item data-aos='flip-right' style={{ margin: '2vh' }}>
             <Card className={classes.card}>
-                <CardContent>
+                <CardContent style={{padding: '8px'}}>
                     <Typography align='center' variant='h6'>
                         {name}
                     </Typography>
                 </CardContent>
-                <img src={image} alt={name} height='200vh' width='100%' />
-                <CardActions style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <img src={image} alt={name} className={classes.image} />
+                <CardActions style={{ display: 'flex', justifyContent: 'space-between', padding: '0px'}}>
                     <a href={link} target='_blank' rel='noreferrer'>
                         <IconButton>
                             <Link />

@@ -5,8 +5,8 @@ import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
     icon: {
-        height: '50%',
-        width: '15%',
+        height: '60%',
+        width: '10%',
     },
     link: {
         color: 'white',
@@ -23,8 +23,6 @@ const useStyles = makeStyles((theme) => ({
             width: '100%',
             height: '15%',
             flexDirection: 'row',
-            alignItems: 'flex-end',
-            paddingBottom: '4vh',
         }
     }
 }));
