@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         color: '#24292F',
         paddingTop: '50px',
         paddingBottom: '50px',
-        transform: 'skewY(-7deg)',
+        transform: 'skewY(7deg)',
     }
 }));
 
@@ -21,7 +21,7 @@ export default function Contact() {
             direction='row'
             justifyContent='center'
             alignItems='center'
-            style={{ transform: 'skewY(7deg)' }}
+            style={{ transform: 'skewY(-7deg)' }}
         >
             <Form />
         </Grid>

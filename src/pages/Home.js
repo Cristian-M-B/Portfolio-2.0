@@ -1,8 +1,13 @@
 import React from 'react';
 import Nav from '../components/Nav.jsx';
 import Icons from '../components/Icons.jsx';
+import avatar from '../assets/images/avatar/avatar.png';
 import { Grid, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+Aos.init();
 
 const useStyles = makeStyles((theme) => ({
     home: {
@@ -13,17 +18,29 @@ const useStyles = makeStyles((theme) => ({
     container: {
         width: '100%',
         height: '100%',
+        paddingBottom: '70px',
+    },
+    image: {
+        height:'250px',
+        width:'250px',
+        borderRadius:'50%',
+        backgroundImage: 'linear-gradient(45deg, #24292F, white)',
+        marginBottom:'3vh',
     },
     text: {
-        height: '50%',
-        width: '85%',
+        height: '70%',
+        width: '90%',
     },
     '@media (max-width: 600px)': {
+        image: {
+            height:'200px',
+            width:'200px',
+        },
         text: {
             width: '100%',
             height: '85%',
-        },
-    }
+        }
+    },
 }));
 
 export default function Home() {
@@ -44,6 +61,7 @@ export default function Home() {
                         alignItems='center'
                         className={classes.text}
                     >
+                        <img src={avatar} alt='Cristian Baronetto' data-aos='flip-up' className={classes.image} />
                         <Typography variant='h4'>Cristian Baronetto</Typography>
                         <Typography variant='h4'>Full Stack Developer</Typography>
                     </Grid>
