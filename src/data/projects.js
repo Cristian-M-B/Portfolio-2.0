@@ -18,7 +18,7 @@ const projects = [
     {
         name: 'PokeMania',
         image: pokeMania,
-        description: 'Pokedex',
+        description: 'Se trata de una Pokédex. La misma trae la información de una API externa (PokéApi) permitiendo la visualización de los pokemons y sus respectivas caracteristicas. La app cuenta con búsqueda de pokemons ya sea por nombre o por número (ID), ordenamiento por nombre y número, filtrado por tipo de pokemon y paginado. Adicionalmente puedes seleccionar a tus pokemons favoritos y armar tu equipo pokemon ideal.',
         link: 'https://poke-mania.vercel.app'
     }
 ]
