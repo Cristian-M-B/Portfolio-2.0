@@ -4,6 +4,7 @@ import Icons from '../components/Icons.jsx';
 import avatar from '../assets/images/avatar/avatar.png';
 import { Grid, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
+import '../styles/animations.css';
 
 const useStyles = makeStyles((theme) => ({
     home: {

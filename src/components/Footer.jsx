@@ -15,9 +15,7 @@ const useStyles = makeStyles((theme) => ({
     },
     icon: {
         color: 'white',
-        '&:hover': {
-            backgroundColor: 'transparent',
-        },
+        animation: 'arrow 2s infinite',
     },
 }));
 
@@ -37,7 +35,7 @@ export default function Footer() {
             className={classes.footer}
         >
             <IconButton onClick={scrollToTop} className={classes.icon}>
-                <ArrowUpward fontSize='large' className='scroll' />
+                <ArrowUpward fontSize='large' />
             </IconButton>
         </Grid>
     )
