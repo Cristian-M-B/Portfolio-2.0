@@ -1,21 +1,17 @@
-.scroll {
-    animation: arrow 2s infinite;
-}
-
-@keyframes arrow {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(0, -20px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
 @keyframes rotate {
     50% {
         transform: scaleX(-1);
+    }
+}
+
+@keyframes title {
+    50% {
+        border-bottom: 1px solid transparent;
+    }
+}
+
+@keyframes arrow {
+    50% {
+        transform: translate(0, -20px);
     }
 }
