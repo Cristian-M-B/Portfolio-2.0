@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
     },
     '@media (max-width: 600px)': {
         form: {
-            width: '65vw',
-        },
+            width: '72vw',
+        }
     }
 }));
 

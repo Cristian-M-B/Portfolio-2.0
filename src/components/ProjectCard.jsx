@@ -16,7 +16,10 @@ const useStyles = makeStyles((theme) => ({
     },
     '@media (max-width: 600px)': {
         card: {
-            width: '80vw',
+            width: '88vw',
+        },
+        image: {
+            height: '140px',
         }
     }
 }));
