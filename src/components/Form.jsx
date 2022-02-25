@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Grid, Box, Paper, TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -39,11 +40,32 @@ export default function Form() {
 
     function handleSubmit(e) {
         e.preventDefault();
+        Swal.fire({
+            title: 'Enviando mensaje...',
+            text: 'Por favor, aguarde!',
+            showConfirmButton: false,
+            allowOutsideClick: false,
+        });
         emailjs.sendForm('service_rvoh1zs', 'template_jg6hj1a', form.current, 'user_WxPNda96LxtOcDZvrzf5E')
             .then((result) => {
                 console.log(result.text);
-            }, (error) => {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'El mensaje se envió exitosamente!',
+                    text: 'Su mensaje será respondido a la brevedad!',
+                    confirmButtonText: 'Cerrar',
+                    timer: 5000,
+                })
+            })
+            .catch((error) => {
                 console.log(error.text);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'El mensaje no se pudo enviar!',
+                    text: 'Por favor, intente nuevamente!',
+                    confirmButtonText: 'Cerrar',
+                    timer: 5000,
+                })
             });
         setInputs({
             name: '',
