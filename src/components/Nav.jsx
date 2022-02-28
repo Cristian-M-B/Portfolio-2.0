@@ -22,7 +22,6 @@ export default function Nav() {
             alignItems='center'
             className={classes.nav}
         >
-            <LinkScroll section='home' name='Inicio' />
             <LinkScroll section='technologies' name='Tecnologías' />
             <LinkScroll section='projects' name='Proyectos' />
             <LinkScroll section='contact' name='Contacto' />
