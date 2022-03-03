@@ -24,6 +24,7 @@ export default function Nav() {
         >
             <LinkScroll section='technologies' name='Tecnologías' />
             <LinkScroll section='projects' name='Proyectos' />
+            <LinkScroll section='certifications' name='Certificaciones' />
             <LinkScroll section='contact' name='Contacto' />
         </Grid>
     )
