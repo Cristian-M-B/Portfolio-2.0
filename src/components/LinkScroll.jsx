@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function LinkScroll({ section, name }) {
+export default function LinkScroll({ section, name, icon }) {
     const classes = useStyles();
     return (
         <Link
@@ -20,11 +20,11 @@ export default function LinkScroll({ section, name }) {
             activeClass='active'
             spy={true}
             smooth={true}
-            offset={-10}
+            offset={0}
             duration={1000}
             className={classes.link}
         >
-            {name}
+            {name ? name : icon}
         </Link>
     )
 }

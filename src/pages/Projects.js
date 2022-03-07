@@ -11,10 +11,12 @@ const useStyles = makeStyles((theme) => ({
         color: 'white',
         paddingTop: '50px',
         paddingBottom: '50px',
+        transform: 'skewY(7deg)',
     },
     container: {
         width: '100%',
         height: '100%',
+        transform: 'skewY(-7deg)',
     },
     title: {
         borderBottom: '1px solid white',
