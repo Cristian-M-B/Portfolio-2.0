@@ -6,15 +6,14 @@ import '../styles/animations.css';
 
 const useStyles = makeStyles((theme) => ({
     contact: {
-        backgroundImage: 'linear-gradient(45deg, #ffffff, #dbdbdb)',
-        color: '#24292F',
+        backgroundColor: '#24292F',
         paddingTop: '50px',
         paddingBottom: '50px',
         transform: 'skewY(7deg)',
     },
     title: {
-        color: '#24292F',
-        borderBottom: '1px solid #24292F',
+        color: 'white',
+        borderBottom: '1px solid white',
         marginBottom: '10vh',
         animation: 'title 3s infinite',
     }

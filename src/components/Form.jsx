@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
     form: {
         padding: '4vh',
         width: '25vw',
+        boxShadow: '0px 9px 11px -5px rgb(125 125 125 / 20%), 0px 18px 28px 2px rgb(125 125 125 / 14%), 0px 7px 34px 6px rgb(125 125 125 / 12%)',
     },
     '@media (max-width: 600px)': {
         form: {
