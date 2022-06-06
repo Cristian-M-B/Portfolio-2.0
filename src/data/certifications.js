@@ -2,6 +2,7 @@ import CertificadoFullStackWebDeveloper from '../assets/images/certifications/Ce
 import CertificadoJavaScriptBasico from '../assets/images/certifications/CertificadoJavaScriptBasico.png';
 import CertificadoJavaScriptIntermedio from '../assets/images/certifications/CertificadoJavaScriptIntermedio.png';
 import CertificadoReactBasico from '../assets/images/certifications/CertificadoReactBasico.png';
+import CertificadoNext from '../assets/images/certifications/CertificadoNext.png';
 
 const certifications = [
     {
@@ -23,6 +24,11 @@ const certifications = [
         name:'React (Básico)',
         image: CertificadoReactBasico,
         link: 'https://www.hackerrank.com/certificates/570e7b711726',
+    },
+    {
+        name:'Next',
+        image: CertificadoNext,
+        link: 'https://codigofacilito.com/certificates/42074.pdf',
     }
 ]
 
