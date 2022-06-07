@@ -3,6 +3,7 @@ import CertificadoJavaScriptBasico from '../assets/images/certifications/Certifi
 import CertificadoJavaScriptIntermedio from '../assets/images/certifications/CertificadoJavaScriptIntermedio.png';
 import CertificadoReactBasico from '../assets/images/certifications/CertificadoReactBasico.png';
 import CertificadoNext from '../assets/images/certifications/CertificadoNext.png';
+import CertificadoTypeScript from '../assets/images/certifications/CertificadoTypeScript.png';
 
 const certifications = [
     {
@@ -29,6 +30,11 @@ const certifications = [
         name:'Next',
         image: CertificadoNext,
         link: 'https://codigofacilito.com/certificates/42074.pdf',
+    },
+    {
+        name:'TypeScript',
+        image: CertificadoTypeScript,
+        link: 'https://codigofacilito.com/certificates/42454.pdf'
     }
 ]
 
