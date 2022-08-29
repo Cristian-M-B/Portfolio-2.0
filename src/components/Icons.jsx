@@ -49,7 +49,7 @@ export default function Icons() {
             <a href='https://api.whatsapp.com/send?phone=5491168071990' target='_blank' rel='noreferrer' className={classes.link}>
                 <WhatsApp fontSize='large' />
             </a>
-            <a href='https://drive.google.com/file/d/16YnqZpJIkr_UjgyU2vc6p4ors1APlyb1/view' target='_blank' rel='noreferrer' className={classes.link}>
+            <a href='https://drive.google.com/file/d/14r7HONB3DHS8RRxfGj80T6XhMh0ZK7R3/view' target='_blank' rel='noreferrer' className={classes.link}>
                 <PictureAsPdf fontSize='large' />
             </a>
         </Grid>
