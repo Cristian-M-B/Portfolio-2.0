@@ -36,6 +36,10 @@ const technologies = [
         image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/redux.svg'
     },
     {
+        name: 'Next',
+        image: 'data:image/png;base64,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'
+    },
+    {
         name: 'Node',
         image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/nodejs.svg'
     },
@@ -50,6 +54,14 @@ const technologies = [
     {
         name: 'PostgreSQL',
         image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/databases/postgresql.svg'
+    },
+    {
+        name: 'Mongoose',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9th5BztSASRW_HU8Ttm8y8V_oo5KpJQJhyw&usqp=CAU'
+    },
+    {
+        name: 'MongoDB',
+        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/databases/mongodb.svg'
     }
 ]
 
