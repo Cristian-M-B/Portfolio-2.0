@@ -4,7 +4,7 @@ import CertificadoJavaScriptIntermedio from '../assets/images/certifications/Cer
 import CertificadoReactBasico from '../assets/images/certifications/CertificadoReactBasico.png';
 import CertificadoTypeScript from '../assets/images/certifications/CertificadoTypeScript.png';
 import CertificadoNext from '../assets/images/certifications/CertificadoNext.png';
-import CertificadoCheckoutProMercadoPago from '../assets/images/certifications/CertificadoCheckoutProMercadoPago'
+import CertificadoCheckoutProMercadoPago from '../assets/images/certifications/CertificadoCheckoutProMercadoPago.png'
 
 const certifications = [
     {
