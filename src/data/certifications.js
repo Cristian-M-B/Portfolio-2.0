@@ -4,6 +4,7 @@ import CertificadoJavaScriptIntermedio from '../assets/images/certifications/Cer
 import CertificadoReactBasico from '../assets/images/certifications/CertificadoReactBasico.png';
 import CertificadoTypeScript from '../assets/images/certifications/CertificadoTypeScript.png';
 import CertificadoNext from '../assets/images/certifications/CertificadoNext.png';
+import CertificadoCheckoutProMercadoPago from '../assets/images/certifications/CertificadoCheckoutProMercadoPago'
 
 const certifications = [
     {
@@ -35,6 +36,11 @@ const certifications = [
         name: 'Next',
         image: CertificadoNext,
         link: 'https://codigofacilito.com/certificates/48149.pdf'
+    },
+    {
+        name: 'Checkout Pro',
+        image: CertificadoCheckoutProMercadoPago,
+        link: 'https://www.mercadopago.com.ar/developers/panel/certification/cert_b122f11d651811edb8250242ac130004'
     }
 ]
 
