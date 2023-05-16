@@ -1,67 +1,71 @@
 const technologies = [
     {
         name: 'HTML',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/others/html.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/72538891-60b1-4813-93c0-681796d68951'
     },
     {
         name: 'CSS',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/others/css.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/b21e0b5b-d0ac-450c-b315-e8c6e0ed9dfd'
     },
     {
         name: 'Sass',
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX////LZpnJXZTKY5fIW5PKYZbIWZL+/P39+fvNbJ389vn57fPIWpP79Pj68fbsy9vTgarlts304OrZkrXPcqHhrMbPcaDw1eLmus/dnr325u7Qd6Ty2+bgqMPqxtfmutDWia/alrfdob7UhazSfKfGUo/pwdXu0N/QuEgmAAARJUlEQVR4nO1dCZeqONNusoBgq7grLu02+v//4QdmqwqgpFns+34858ycmdu3IZVUqp5aEr6+evTo0aNHjx49evTo0aNHjx49evTo0aNHjx49evxPIBggBJ8eT4MYDNc/l3m8opz5EozQVTxfHmfRpwdXG4P18rTijHBOqYdAKeeEhKfp7NNjrIFkGtNMNu8FMimXyadH+hsM1hfPfy2cXk3u746DTw/YDcF6GzJeRTolJAmn40+PujpmlxVxEU/K6C3/DfMabRasmnLmQLzjp0f/FsF6TsjvxHvCP/1tVR3/7Jw2XwF4uP+0FOVIzrTO8klQ8lc1dX31ay6fgn//tCwFCI43v/7yKXxPPi1PDvddZfVMqVpK1njG4cp/hf8tHhdsvCrypXJl5DSMT/PtZbvdPok4YYWUjq7+kGPM5HsvHGHh7Tx9JJYriJL19BQWeE+y/Yw0eQT31Tv5KGGL831W7uai/WHFbBn9P0LFj4vX+pnGg+R8HL5VuWBiGyp+6mD4b7Hf5aYeLx5fLSubjMcK+xryeWOTzF/6B85uUydNCy5I3/mlrYFXxODAX/h3yryD+xrcoYh09dl4cRK+kI+zePIra//DwFPYJ9U0uZYraBrlXYa/ffAczBufNjlkN0zLoz/KFpvR7588BBLSc3MjdkNyK/WAqXzHemTkbESku4YG7IplqQekZPeo+/QH2Im8ieE6I9mVLSBlt9rypSE0eKJf/3HuuJe6CLZrJOIJdkZD/O7dRTBnJfIR2lTQev2khIlXsoCcNmfYT+YdftcR1LHExHCybTA9djIv6drSHEo0lMWNco9YS0hXTT73LYJTsQ3lDadwo4WR8Nrok99gvCjcgpwfGt4rQzORnQYXSTHPZrfGyfHRSEg2TT+8HPtCHsrJT/Ov2gJT2l1s8SiM5Mnt1xFEOYIQvKGz8vekyMZQvmzjXYCWdpeoKRSQ79pRIeDvSVfh4brIDfothW5DH0xiR+nEIgEpb6s4BOwMjVt6h4VZgRXli7aMXAJ8Eumm/jT28gKSuDUbB7M0rBPaPVjlHT1rr6AwgfH9obXXQJwKBGzPwkVQYUgn1fxD3k98t7g74Hx2w0kfeTPKWqywb1DCu4slHH/njUyLxec1FLAbbx/nNqHfooAJ3ITdZEp/cpuQtRBKKIxC6JY6iSqGuRUkLdrvCAXYbb7JIOco+Ly9l+EMAu+Erz18S8A2q3l2iqQTyr3INQ60tzWsFEmb9szgaJuZFs33GpN71kpkncPOWkJ+a+1VGzyZpJuiYS6sb60Ja3DGxIlfu8nkXy1Dytua2JllY/ium+xTYhNSVqNu/QoHu0uoq/aLpb2E7YSEe7vYym8tzWQOoWVnWmkxG5/tUlaLyQMLM8vb8xYqJINlrphMWiRNFmwlfd92Pf3PrYIfLUmO13dDRgVWtjN8m72/cr6u/vxkmW9I5bTDvmc7qqDvvf2dVE+h7ucFzQ5s10INpBQ2Y6tgSUfpr/hVtGy4DAtK5Zx0w9QUzvY2rJB8ynLVZPF6MwbJJi48ydZwmfw97MiQVTjCMsra7imLj2X2fvi43FhhpwPxOj9ccbXdVJUZFvEkJd78aO+oaH/f7mjJUS/uH7o/JBvbprSSv1fNr5T4/HrYHB/r9eO4WZ53xGekpJWREnpxZzFBCudfQrDXkFZjNBOjg5QTQhhL//XqeCxlzicqo/30HC/CcBdf6tCsg81KKz5s9qprOCce968TV5p9DJk4LU3TOaxxwG1te4uqlm6w/a4mYzq+1dTdAY7+g3WNGkmHwBoPqc7IZvHb00GUMy926+FXQI6aOZCoHOZWVOrijl8dIE11i/H48vhtSQK5sbCOCV7j2MKxJ2L4c/UZMjHiXgHmh/Ppusa4ItiIUjN7a8WH7nWg/f1w2ukBhbfT9mcyq2rio/3keD+ucy/do9JNvSLY3Up//ZJ0BNFoPI7cDOb6svAzN5Mu+cnarCioo/WY+gDngysEF03h+J/RbmIl9+Mmi1N3nIqqZbecAENTa/+PUWmjdriMa4edtbLOUAUKtyairUNqz7mVT2yjCbEIUyiFxaUQmWygx32JRazITesCejxrqyXIhTXRAY7T3i3WLQDGcJksorFFljRs4m3YKTZz8Hg0Ho5fuEVMyxC1HiIH1oxh2GOnWL9TaH+5ecznt/Le5jmcVIJ+tMVMsok1TGcUk7earTSTm4yDKTuV/JUI2Rn0t+z8H6s1Fo2p5RVrZDT3C9BIXabxqJKIfYW1hI2dprlYivpbEUdbXGMqqYOgTDRiGYkYiPk5ayq9urVE/J2i7u3gvzgew5E3g7Mg4jl+vqgHNceytpai/sbc/OQ6/YtZJc5i+mCVZKnIH2pe02B7rdWeyNxbBi8FbdS8YBvN8JughIJz8/PXTD2ryT5+29xcHWPYc1EjfFGtxzIm4Kj6g6hfGpkguMFaquU0+MKJwJ3BynDmyQOMJP+Mse0PzE67iSXM1EdrcqMXLa0pDjS4Q60QmCpK5ntlMwoknFrm0uw0FcplQb92KM128g93eH79yqkpwN/lEZQpL9FSIRrXYa62twMp8fP/TTP/d5E1HUQpfhN22E0vZF5tM06+wa+IF4vdxnOjUJRUh2061SRsHfWEcdI+Ey9ilEyW59NttwpXq1182k4fiSMnmGKXXW0zAuuoa/Sy2eorOR7RI8Sfk+mXeYn4wViIzKTSmoS8r5n5bBqHnMiLp9J/sluoCA/nR6cM2gyfS6Dv2+sCYIV1picQq7rb+oT4sbGH0tvzyNgS6S7ExtUe1ISJ8pn7Cym+XpNS4l9dWNjAOqj+rsHuGAIj46nZVA5N6KoJOoVcWbV5qiQUG1GKbkIp03FH1l/j6e7lFXHZJR0O23KDk9nk9OJ31zdIZEwDPG7T015dGpCsUrlXE0kX2U9uytkrmHQNvW3fXzFGycphHZMFvgMoLNuMyRURNZCftpiZWlrBN599Oyaznc2L9BQgOxqB0VeqA1F2ddiPFzRntPhwwnBraQ43+80ak/zTkZg5UQLSVZN0o0VybSEdtrt9pLCckG8mqpZ20ZJzh2V84DChYDNGuWYnQNdx3kCfixHeXiZfTOcn2wvfIvRVT6CtmJz43vW8vD/2SZLMZo/78nzzGLof1neIGEYnROLI3HI7m5BYA4BZowsSXpft5P+KYQyMBDL17uNiKKrgcp9vj0nOPUez6QkK6RQx4NtN+ApuxkdBtwyMm3HrMZMDk96eSctlx/N2Pw+sb64O5aXgYDI3d406ZdKSGPoNyvU79nHBmW8YC+IASV+ZAJj18/mY6tOVtUJ7IPwb7Ys22jgypzrA8hsWSWSGPZkbrYCeAgQB2Ego5ildnmHjN+yVLKL/gJXJtwWa4K7uY/GdohGcl8iCjWhrlJeyWJt8GhqvGVhKKhdf5BDpSf89eNAy14D9QPvgfVPhV6SoiltBLthChWSTKehRIIvHSI8RpmSsvtVQOBHJtUFvRYCKe9iUWSddKmUz5Aku1zbZI7yNB1gt7k0DQF1gMgK3sahEhPQIsGwAmI/lch9WFFmtxX4iXswcr7EaXgtuIuD+8zIeXSdCA8dmSDoHudxoMQamooBz+7L6xrW6012lIGkietKcy6pT+949SmJhLrSSwoFbJ/ulWkrrQ/GT9WqjxONQLB7bgFPt1RjZ8rkavnOX0XqFx6xIrk6JISWdW/PxNEGB+EOrQAnrMOCPxdKyn3SR9Tsrmo9nKc29gWMAW1EpnyqzabIpQC9GVoOHiNFlqECxz0uMhGDexdue/eBaTasmv+Wquwb+6Oov0MKjyTM8kW21Hkv1E0O1k+Bg5kzFXjxAGCjtMquuoTBobs1wd6sdHSikTqbAbWg1dYpsoTwubnXswAO6mnaLy/iomEi9hmHVvOlzEV1uLZqs7EyvWS9zMSAoPlgpbVmJF5Vm6/A9NklKeuFVBMvV9/Q4JBWzGa5++AeH8PJloVJyIIxZGxxWyKWZibQNZiZDHN5JzRLEQHptbUsdeu4yxahqaoYnyJz0eLSST4yh0ZRtYM2IWLa5Ts8YBNbxVRmbiK0p63K6Z6MgtVyGLD1SrdwxWEI3yL27uiRPE339fnDhmtVIJgi5vG/HR7vQbqQXzEAkFeUa6ElwMf/Zyyop9QOGuJSlFEb5Bj1Bmp2BAdiHUp+LcSlYQpkm5ws9h08JxUskwzFFNof6zMivtIbjOVRQssveqLJjdGGHsGbsiX00PPP3srkE7cKjJHEHHWkJCZ+WWHJAXdR3OhOdreH7bXuE8T2VzDJSo1e+6Zx3h/YplWesJNYatajJmUjnWvtUoc/iP58v1KzV7Ux0ZqHfNYuN53Al2FXNveYXKuDTEqrBj23Lm/1EORWwC+XdEXzxNdJ/9WnAhAN59oElahMSt2rtcz5fcxqUZ+PcOHNFMFQ4rwmo1tKpHYZkVECwYXTkSVgZGg5hADXWD8hyWhsVOvmO5eh08t4cr0K5UnYDM69iJZXWNFoqozdl+/hWe5aJSpLCMpTs/UhXzVy9J8yfUOhVcFd5F+qSIMyQWSf+qmQ2hGd2Kc4AKa1U+1g7d2WcZVqCxtpTphIKewR53V1sgswBmvYB0f8h7Y6vZpl7rtGs96ZbZg1Jtn3fnpZQbjsT3clqu1RjMjFmfiIcHGxQkzY5SyDPdOGRiugJu1PKKhYwNYLUFr/ctz9IQ8/Wfj1ZEppMkmg3UEsYmmQbX54AzXxCtgpmic3I9A5Jh4Cuavdvrt00Qcp/X17WALtqaJ6fK2+utNTw0qc2B9I2pNvUkFPB9eA9LaIt+emTTeen5gxqCJSz2LlbKCvT+y9IdwATMtzLh1jadMrdaWKL50ZUe4oMculs4J9ETwPP8i7mPl9+0+pyYs/K7u4X30lMNZDTF9nS4Aa34CIfcQ60x1dWw1C079nXQ+nwJZewByRK5orSUCkyE8p3gJVNzqfz/Tetyof/uD9/ESgHsKmd3wp2uK5p6uw0ECTURPp7mJPQdPCpqmACv8XC4kbukPiJX39LBF0TFxdxAu3OdbwLL3pD3t/KmJq9L7y/t9uutE3r6vgzbMAsub/JpCc0C8jf9CYiOWz0+Tj3DB1s0hYuYS7EBN6YuitUGs05QXbWJtrpD59GsezWOeuQTirfqqPP50WoqF28W3UODSjdPhcsiQTAGGrEDag8OobA/bqfAakOuBZlNwpqJYWO0j4trfibKZxRNGHD7MNk2dfmCPFuHX44dw+tTEnCYG/KTGDjTKxMnMrrHnUviXXKPzoe5qfT/PKz7/L6CKQ7rKRAoP+OybVlwAenzPTIW5Ooy00h7QHuprLDYua8KU63oPQoNf2uiUcopcytSbU1wFJK2TlSUwezOyaAiLBQHR12qxeHSjpFBJewhLfCPK/1I/PJJLtJ4M98Sx2WUkpKGoC85M7HD+bPnsHU9n/w01uvAQ6tw34DgASmhvOpy9l2kRKxZafG0Qng8FpxJhXeqlpyy1PdOzpaBewfK7SkEcpj/+1PTRcC2vuiutsI9rd39h2DJgGreAVtK+jS0Y99A64WHpAl55Zogop87G84cEfANbQbcwb4xFeLN9G3CdTtisvld6+Edf5bQL24YBHHdpMsCvT+KYRIjPgxHAyG+58TtZpk+aqrKzkbBy43U+aFoUeInZ/g4T/oCSVy90EXAaU0/zVEuWRLHi+Plfx9zHMZMxuVboP8w8i3F1gaShv4supncXm1E2nVU4h/GdGuVE8pq//p37+AYcHnnoR8Xmc525YxKmrRIzzu8NLf1vHzPCVFJTj59Z2Afxjj/eYSrzIsrtvp/t+lMK8RBPUvRu3Ro0ePHj169OjRo0ePHj169OjRo0ePHj169Ojx/wv/B9kDzBrft3j7AAAAAElFTkSuQmCC'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/75efc452-29b3-4693-a8cc-a8f05be219f2'
     },
     {
         name: 'Bootstrap',
-        image: 'https://cutewallpaper.org/24/bootstrap-logo-png/download-bootstrap-logo-in-vector-eps-svg-cdr-for-free--brandlogosnet.png'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/b6dc741c-2225-41e1-914e-b68e37197803'
     },
     {
         name: 'Material UI',
-        image: 'data:image/png;base64,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'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/0c239648-5578-4eec-b12e-cfba0072b58c'
     },
     {
         name: 'JavaScript',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/javascript.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/3273491e-e14d-4a98-beb3-ef2f1feed687'
     },
     {
         name: 'TypeScript',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/typescript.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/0880db66-55b8-4811-b09e-60b5882db689'
     },
     {
         name: 'React',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/react.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/ca23a627-0464-486a-a2d8-9b70979561ce'
     },
     {
         name: 'Redux',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/redux.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/b4673ea1-9835-43db-a3e2-5977ed4066fa'
     },
     {
         name: 'Next',
-        image: 'data:image/png;base64,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'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/4eefba36-4de3-43f6-a4da-122866f5e7af'
+    },
+    {
+        name: 'Socket.IO',
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/14096cd8-d38f-4e8a-bc5a-d8158403b131'
     },
     {
         name: 'Node',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/nodejs.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/e55c222f-0619-41c9-a781-e899a974684c'
     },
     {
         name: 'Express',
-        image: 'https://camo.githubusercontent.com/28e93a1bfe79f991ddcd35f7833e8537f0e7b31aa326dfbe98fe7eb538b40b46/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f323431352f504e472f3531322f657870726573735f6f726967696e616c5f776f72646d61726b5f6c6f676f5f69636f6e5f3134363532382e706e67'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/2b012137-96b0-40b7-ace8-455fc5c7e0f6'
     },
     {
         name: 'Sequelize',
-        image: 'https://camo.githubusercontent.com/c7df0ed52a480ff725aac7ac3a11c8aedb6f60ea8ab01929c6adea9903589222/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f323130372f504e472f3531322f66696c655f747970655f73657175656c697a655f69636f6e5f3133303137332e706e67'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/08b27101-c19c-453b-a62e-f081c14cc005'
     },
     {
         name: 'PostgreSQL',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/databases/postgresql.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/87ddbdde-2603-439f-a562-0db4bdaf1231'
     },
     {
         name: 'Mongoose',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9th5BztSASRW_HU8Ttm8y8V_oo5KpJQJhyw&usqp=CAU'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/9cdd90dc-b412-438c-84b0-192a311246e4'
     },
     {
         name: 'MongoDB',
-        image: 'https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/f994c418a134b58c4aec11152f6a4a33fa89da26/databases/mongodb.svg'
+        image: 'https://github.com/Cristian-M-B/Cristian-M-B/assets/82118346/c1312535-f46b-4f98-acff-b612c7c618eb'
     }
 ]
 
