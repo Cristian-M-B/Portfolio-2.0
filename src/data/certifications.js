@@ -5,6 +5,7 @@ import CertificadoReactBasico from '../assets/images/certifications/CertificadoR
 import CertificadoTypeScript from '../assets/images/certifications/CertificadoTypeScript.png';
 import CertificadoNext from '../assets/images/certifications/CertificadoNext.png';
 import CertificadoCheckoutProMercadoPago from '../assets/images/certifications/CertificadoCheckoutProMercadoPago.png'
+import CertificadoFirebase from '../assets/images/certifications/CertificadoFirebase.png';
 
 const certifications = [
     {
@@ -30,17 +31,22 @@ const certifications = [
     {
         name: 'TypeScript',
         image: CertificadoTypeScript,
-        link: 'https://codigofacilito.com/certificates/42454.pdf'
+        link: 'https://codigofacilito.com/certificates/42454'
     },
     {
         name: 'Next',
         image: CertificadoNext,
-        link: 'https://codigofacilito.com/certificates/48149.pdf'
+        link: 'https://codigofacilito.com/certificates/48149'
     },
     {
         name: 'Checkout Pro',
         image: CertificadoCheckoutProMercadoPago,
         link: 'https://www.mercadopago.com.ar/developers/panel/certification/cert_b122f11d651811edb8250242ac130004'
+    },
+    {
+        name: 'Firebase',
+        image: CertificadoFirebase,
+        link: 'https://codigofacilito.com/certificates/72581' 
     }
 ]
 
