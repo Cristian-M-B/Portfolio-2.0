@@ -1,11 +1,12 @@
-import elChef from '../assets/images/projects/elChef.png';
-import amadeus from '../assets/images/projects/amadeus.png';
+// import elChef from '../assets/images/projects/elChef.png';
+// import amadeus from '../assets/images/projects/amadeus.png';
 import pokeMania from '../assets/images/projects/pokeMania.png';
+import tecnocommerce from '../assets/images/projects/tecnocommerce.png';
 
 const projects = [
     {
         name: 'TecnoCommerce',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHH5iLhHb9gbEJgU3su2lsQ3Y4qsixiHpsHQ&usqp=CAU',
+        image: tecnocommerce,
         description: 'E-commerce de electrodomésticos y tecnología. La app consta con tres niveles de ingreso (invitado, usuario y administrador), cada una con sus funcionalidades características. Por ejemplo el usuario puede seleccionar productos como favoritos, ver y modificar su perfil y dejar una calificación del producto que compro. Mientras que el administrador puede gestionar los productos, las ordenes de compras y los usuarios registrados. La app incluye pasarela de pago mediante Mercado Pago.',
         link: 'https://tecnocommerce.vercel.app'
     },
