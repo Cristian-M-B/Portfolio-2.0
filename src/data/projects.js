@@ -1,5 +1,5 @@
 import elChef from '../assets/images/projects/elChef.png';
-// import amadeus from '../assets/images/projects/amadeus.png';
+import amadeus from '../assets/images/projects/amadeus.png';
 import pokeMania from '../assets/images/projects/pokeMania.png';
 import tecnocommerce from '../assets/images/projects/tecnocommerce.png';
 
